@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing card ui</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="card">
+        <div class="badge-container">
+          <div class="badge-1">Most popular</div>
+          <div class="badge-2">25% off</div>
+        </div>
+        <h3 class="heading">Premium Plan</h3>
+        <p class="amount">$999 <span class="currency">/mo</span></p>
+        <p>
+          Premium content comes with top quality content that helps you level up
+          your front-end development skills
+        </p><div class="para-container">
+          <p class="points">
+            <div class="check-icon">&check;</div>
+            Premium videos for front-end development.
+          </p>
+        </div>
+        <div class="para-container">
+          <p class="points">
+            <div class="check-icon">&check;</div>
+            Cloud-based Integrated Development Environment (IDE) supporting multiple programming languages.
+          </p>
+        </div>
+        <div class="para-container">
+          <p class="points">
+            <div class="check-icon">&check;</div>
+            Browser-based terminal with support for running and compiling code on the fly.
+          </p>
+        </div>
+        <div class="para-container">
+          <p class="points">
+            <div class="check-icon">&check;</div>
+            comprehensive resource library with coding tutorials, exercises, and
+            interactive projects.
+          </p>
+        </div>
+        <div class="btn-div">
+          <button class="sign_up_btn">Sign up today</button>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      #main {
+        font-family: 'Inter', sans-serif;
+        height: 800px;
+        background:  linear-gradient(135deg, #4E82EC, #55B3A8);
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .heading {
+        color: #845eed;
+      }
+      .card {
+        background-color: white;
+        height: 550px;
+        width: 350px;
+        border-style: white;
+        border-radius: 0.3rem;
+        padding: 1.5rem;
+      }
+      .sign_up_btn {
+        border-radius: 0.5rem;
+        background-color: black;
+        color: white;
+        padding: 0.5rem 7rem;
+      }
+      .points {
+        
+        word-wrap: break-word;
+      }
+      .btn-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.5rem;
+      }
+      .badge-1 {
+        width: 6rem;
+        display: flex;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 3px;
+        font-size: small;
+        background-color: #5ec269;
+        color: white;
+      }
+
+      .badge-2 {
+        display: flex;
+        justify-content: center;
+        width: 3rem;
+        margin-left: 0.3rem;
+        padding: 4px;
+        border-radius: 3px;
+        font-size: small;
+        background-color: #e2b53e;
+        color: white;
+      }
+      .badge-container {
+        display: flex;
+        position: absolute;
+        top: 5.5rem;
+      }
+      .para-container {
+        display: flex;        
+        padding-bottom: 1rem;
+      }
+      .check-icon{
+        margin-right: 0.5rem;
+      }
+      .amount{
+        font-size: 2rem;
+      }
+      .currency{        
+        font-size: small;
+      }
+    </style>
+  </body>
+</html>
