@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#main {
+  font-family: "Inter", sans-serif;
+  height: 800px;
+  background: linear-gradient(135deg, #4e82ec, #55b3a8);
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #845eed;
+}
+.card {
+  background-color: white;
+  height: 550px;
+  width: 350px;
+  border-style: white;
+  border-radius: 0.3rem;
+  padding: 1.5rem;
+}
+.sign_up_btn {
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 7rem;
+}
+.points {
+  word-wrap: break-word;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+.badge-1 {
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: small;
+  background-color: #5ec269;
+  color: white;
+}
+
+.badge-2 {
+  display: flex;
+  justify-content: center;
+  width: 3rem;
+  margin-left: 0.3rem;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: small;
+  background-color: #e2b53e;
+  color: white;
+}
+.badge-container {
+  display: flex;
+  position: absolute;
+  top: 5.5rem;
+}
+.para-container {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.check-icon {
+  margin-right: 0.5rem;
+}
+.amount {
+  font-size: 2rem;
+}
+.currency {
+  font-size: small;
+}
